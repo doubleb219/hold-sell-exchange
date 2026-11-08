@@ -1,0 +1,26 @@
+{
+  "name": "hold-sell-exchange",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A deterministic, tax-exact simulator for the hold / sell / 1031-exchange decision on rental real estate, with Monte Carlo market paths and an auditable ledger.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "@vitejs/plugin-react": "4.3.4",
+    "typescript": "5.6.3",
+    "vite": "5.4.11",
+    "vitest": "2.1.8"
+  }
+}
